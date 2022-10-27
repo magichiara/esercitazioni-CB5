@@ -1,6 +1,6 @@
 // ESERCIZIO 1 - Ricreare la calcolatrice sfruttando le funzioni
 
-//alert("Ciao! Qui puoi eseguire operazioni matematiche. Premi OK per iniziare."); // Alert
+alert("Ciao! Qui puoi eseguire operazioni matematiche. Premi OK per iniziare."); // Alert
 
 // Variabili
 let operation = prompt(
@@ -68,7 +68,7 @@ console.log(myDog);
 
 // ESERCIZIO AVANZATO - Modificare l'esercizio 1 in modo che la quantità di argomenti passabili (numeri) siano più di due e ritornare quindi il risultato dell'operazione considerandoli tutti quanti
 
-function secondCalculator(numbers, secondOperation) {
+/* function secondCalculator(numbers, secondOperation) {
   switch (secondOperation) {
     case "+":
       let sumResult = 0;
@@ -101,6 +101,37 @@ function secondCalculator(numbers, secondOperation) {
   }
 }
 
-secondCalculator([1, 2, 3, 4], "*");
+secondCalculator([1, 2, 3, 4], "*"); */
 
 // Per risolvere l'esercizio devo usare un normale ciclo for.
+
+// ESERCIZIO AVANZATO - Modifiche
+
+function secondCalculator(numbers, secondOperation) {
+  let secondResult = numbers[0];
+  switch (secondOperation) {
+    case "+":
+      for (i = 1; i < numbers.length; i++) {
+        secondResult += numbers[i];
+      }
+      break;
+    case "-":
+      for (i = 1; i < numbers.length; i++) {
+        secondResult -= numbers[i];
+      }
+      break;
+    case "*":
+      for (i = 1; i < numbers.length; i++) {
+        secondResult *= numbers[i];
+      }
+      break;
+    case "/":
+      for (i = 1; i < numbers.length; i++) {
+        secondResult /= numbers[i];
+      }
+      break;
+  }
+  return secondResult;
+}
+
+console.log(secondCalculator([10, 2, 2, 4], "-"));
