@@ -1,3 +1,5 @@
+// ESERCIZIO - Stampare il valore delle chiavi title, price, count degli oggetti contenuti nell'array products
+
 const products = [
   {
     id: 1,
@@ -134,6 +136,8 @@ const products = [
     },
   },
 ];
+
+// Ciclo for...of
 
 for (value of products) {
   console.log(value.title);
