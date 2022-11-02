@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:wght@700&family=Merriweather&display=swap");
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar-section {
+  display: flex;
+  padding: 0, 15px, 0, 15px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.navbar-logo {
+  width: 55px;
+}
+
+.navbar-text {
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  font-size: 1.4rem;
+}
+
+/* ---------- HERO ---------- */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text {
+  position: absolute;
+  color: rgb(241, 241, 241);
+  font-family: "Libre Baskerville", serif;
+  z-index: 1;
+  font-size: 1.3rem;
+  align-self: center;
+  font-weight: 900;
+  text-shadow: 0 0.5px rgba(0, 0, 0, 0.9);
+}
+
+.hero-image {
+  opacity: 0.8;
+}
+
+/* ---------- GALLERY ---------- */
+
+.gallery-section {
+  background-color: white;
+  height: 600px;
+}
+
+/* ---------- FOOTER ---------- */
+
+h3 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.footer-section {
+  justify-content: space-around;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 55px;
+}
+
+.footer-text--container {
+  display: flex;
+  gap: 10px;
+}
