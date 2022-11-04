@@ -74,52 +74,53 @@
       <!-- Section: form/contactme -->
       <section id="contactme">
         <h3 class="contactme-section__title">CONTACT ME</h3>
-        <div class="contactme-text">
-          <p>For info & collaboration send me a message!</p>
+        <div class="form-container">
+          <div class="contactme-text">
+            <p>For info & collaboration send me a message!</p>
+          </div>
+          <form id="contactme-form">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Inserisci il tuo nome"
+              required
+            />
+            <input
+              type="text"
+              name="cognome"
+              id="cognome"
+              placeholder="Inserisci il tuo nome"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Scrivi il tuo messaggio"
+              required
+            ></textarea>
+            <input id="submit" type="submit" value="INVIA" />
         </div>
-        <form id="contactme-form">
-          <input
-            type="text"
-            name="nome"
-            id="nome"
-            placeholder="Inserisci il tuo nome"
-            required
-          />
-          <input
-            type="text"
-            name="cognome"
-            id="cognome"
-            placeholder="Inserisci il tuo nome"
-            required
-          />
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Scrivi il tuo messaggio"
-            required
-          ></textarea>
-          <input id="submit" type="submit" value="INVIA" />
+    
         </form>
       </section>
 
       <!-- Footer -->
       <footer id="footer-section">
-        <section>
-          <h4>FOLLOW ME</h4>
-          <div class="icon-bar">
-            <a class="active" href="https://www.linkedin.com/in/chiaramaggio/"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a href="https://www.instagram.com/magichiara_/"
-              ><i class="fa-brands fa-square-instagram"></i
-            ></a>
-            <a href="https://github.com/magichiara"
-              ><i class="fa-brands fa-square-github"></i
-            ></a>
-          </div>
-        </section>
+        <h4>FOLLOW ME</h4>
+        <div class="icon-bar">
+          <a class="active" href="https://www.linkedin.com/in/chiaramaggio/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/magichiara_/"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="https://github.com/magichiara"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+        </div>
       </footer>
     </main>
     <script src="./script.js" type="module"></script>

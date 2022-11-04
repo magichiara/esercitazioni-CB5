@@ -49,7 +49,7 @@ const projects = [
     title: "Conservatorio A. Corelli",
     category: "Brand Design",
     year: 2020,
-    image: "https://bit.ly/3fvLQYe",
+    image: "https://bit.ly/3WtdhCL",
     isComplete: true,
     isInTeam: false,
   },
