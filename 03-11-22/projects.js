@@ -4,7 +4,8 @@ const projects = [
     title: "Glutenfree",
     category: "UX/UI Design",
     year: 2017,
-    image: "https://bit.ly/3WrFda2",
+    image:
+      "https://lh3.googleusercontent.com/69RBZkGMmmWqdzcXUw18wWVEa3A2z0K9J_T2OElH2MNI3YACNM5tNChXMBgSHZhVK1Kl30QQD2D4GayzVkEMPElRJs4T6XglU5mFRgNCKFW5R6HcYmCk7lENyKUqtE19OuOV6W90Hlbh2hfWduEuDJQQaJtdhrMyCsbXzhiXq4wzjFvP8Eujo9L_ImIZo4vI818hIQ_H2GcTv3wy-hrabSxIAXnnaPh5LZLWt5un3cnPzAzwXBdub23ly6u3H2Pa44in3596DfmQjFbWtqburmXkOXGTJrhbtmZzvFhJptHG3slCz4x5KS6ADRzne-pmxLFgXKBIQjeMabToqqO_CFyuB0LSdai1usVVfNyhwE9-jYFjy7jGBThokUXzRfZftWTqJW57BtwK-RJbg43S-fwyOM5iKSqNxkltGc47SzfazfqPwPH-4hhJ5_U_xq9MV2nym1dKk6Uo5vZIiPMR5DA8G9SMwVk_TptAe9MTiPl7YSXighvkf5GhwHdq_9cE-o6hqCdZtPHWaVZYXJNtj4nr1JMv4W0mUIjqgZ9wpjoNkan_ghzWYLheSvW7UU5ZzeDWwj-tFO597p0Yp1C8HiRtUk00_Y9XyqKsMDy7_a4RHO-35FWiZXmvKbFbQf4Mi6np1JufwfDpUy0JnVQyyP-1bJdtGE-g2Ol693L1LWb3yhjBW22qwKTjUrVvFlrzKMZJUcWc0ns8Nt4opzsHTjMZo061z3f-mUWJujLrmL0OLMSH2l5LLH3jmSdPy0-hMveX6Re-fg-cGLcLCGRRKbMldwdtLDbwWPZnMLsvmoPl5QHJIiu-Y6aLu5OCzH0d_SY9RyfzL71us7R2u5BqH1OU4nmiSYgfERohwS9OUi6EzBScQRVRbcrTwKdjj0i6PdLPb1LV4YakRdPs_6TM2BdlkGA7AXLDnYydhvwefwWknAfEDsyzqSh3gauvfOHAchNQ-7TqgO3F3I0gUyLmkHm8rV39m4V9K6VDQ6UY6FqKvbauITx7_5jLHjHf87RdHhFbQqmCZZFYIKJQ73xcFd4e1Q=w254-h317-no?authuser=1",
     isComplete: true,
     isInTeam: false,
   },
@@ -13,7 +14,8 @@ const projects = [
     title: "Recycler",
     category: "UX/UI Design",
     year: 2021,
-    image: "https://bit.ly/3sY007O",
+    image:
+      "https://lh3.googleusercontent.com/NDxuR-baZced2qrc5mEgtrvh2h8HdHEbnLgSs78fFdA38vZNYxXgSS4b7g9IpQWzN4pUpbKt3dmxIV4S126_85IuPzxqiyQJLOVm_w78rcxtdZTexLJcifqySr-ZQBZ8iH4nK38y7ZYIYvvmtVYW-d7KemQnn09knLxUqdqjlFD7gCOX8mMMXK3drxY-a401G395dF1sGZ2mmMU6PoTRq3BNP8pZn-zErp1fz06EmfWgwgryhSTLRZr1qscKxhW2lDtDlpoin3iJHIbApIgZRVCe4vussyAC-tBh6fPEt-7_3QwG3Bx8gPWuEr0iQbUHpkHc4aIJHrN7RegCoLMSErAYju9C1IzlziQtrfKIQh2UgtH-njkQaVU4Q1UhG5Rwzmp96fby3KfLJYckcqRv2i1f39cnsgdv52Vj-4_imUSJoR7qZF6XzzqznsoRN3kdH8K-zsXQIWhrx-56f5Wt1K4BJGXqa8WUVXCfKD4vN6kQPaFhFR1YXJI8hUNPntRLvsodibKC60TkRZ0S1GZryMySSFlUVZiRqJ8The3lRk0DGR0XsciSpvaxhOnth046_gT3i-T7kH4Rq_GI0hVyTdDV-kkmucJnHCNBfFf1PGq6EvggDTygeqvrytYVN1Ppcb6-36cqz9bGQRA5iMBWybRG07QnwZXFpvC7_rSFIw7mmzUL5sQFIZFDpxgVLza53iXNE1NB_vcgMO_uzaLnM-KS4RbzSnIHF-Jy4Z-Z4DWRvOR36qJnNzmb-h7uClehyRGBQQLAQvMH6HG0PfmzaBTlGmfSFWdsN4JOp5OsZsl9wB7Ego-dVfZai6JPw3mQ6S6368_nTFhH9pXtcJArAzN0rLgI7lXFp4_vGyhCjSvRgUjw59ohuK3X8tF3zEm-MRcuPH1Ek2dbLs3xxLmEh2v-BDEgXO1s0pVfJnfVEYiMTy0xpJcC1Md07KGp99pNqYigBznBgAmptrugLKO-ihuDyc73qqUHUbJKszKEe5NDIThMi1jRsU5BinXBmkZ2AOq6oBvqOlsl2Uys0dmC-1tcIw=w1116-h1578-no?authuser=1",
     isComplete: true,
     isInTeam: false,
   },
@@ -22,7 +24,8 @@ const projects = [
     title: "Homepal",
     category: "UX/UI Design",
     year: 2021,
-    image: "https://bit.ly/3FIrd5P",
+    image:
+      "https://lh3.googleusercontent.com/h6kP0eJkFtwi3ivK9sWDLy83KcH2ooAHWpvjaOmSE0QtRsl3YyXWe4Z33CatF_gwj02yJxarllEcQ-pIo9PRlWkUSP7Q4u8j9JmYwzLiG1Q9d2-h_4mAUvR4dYKi0mfVUsq7XSr6l1grV2yqRz2t578VH-y2VWnoHlhHfS7oSr7VR_C9ijqPM--ehlB7zd3X2S3QYM85fuocmtsLFnLTulXaC2mey0qIgZVEXdlh_Sg_P0DM9uL8mSd0tHxKXHZol1FrOkbP48VG8dvYGfuqljIpr7l1LmG3YZhYPZD40ebAtwdB-KATMracAbQCN-TP1BllzsP1_e5CzwkwMstDZupSHUEd3PGhwmIQ65nYtM_VDq4W-xlkT1hrlvTrL_lyr7gSJ-z4Zbe6TDKCRNj1eNqRQOh0qjdQ5DIeA8DoEzRCTxTBUpDYRCKIuF0R8NFb2knl35d6xR9Ej74ytFoddVmI9I2xYxaGqG3-xU83KgruH6QiIBuCEuAEAIeGsTALlIShKZHZg6DRIzVfrPhqxuXsfIV-DYjvlU6-u9GquJA9g6AZdCXgVs7mJKcwhC5jAVzMcTvJU4xydJFSl0D6B6P96SuvuIm2l8ydZIJ5WVUnqWDx3AmMhtdxvmSMgF8zcRQyL6F6fRk2HAQN4yTOahmlR0J0v8IU9NZqr8F3yFHmPTNFA1yCbM314I9Cq9bpYKDWp96vDQ8XKZN0N_bd_Q45ZRsrvPFsyCPnApPABF7cXMRNJxbAMbWbgTV60yrUmyMYuth9JtNSvrQhnOk1e3P4gaEarNIvbQbAVhie_w1cbB4RCRewbCL2FDwE4wetrnXvHFSyVHdKcg4XZrmI6x2sDx-WY9_nMfSM0esSpG1zz-dWxz8InY0uJUYNIDf8xCj2jR3iRDtn6rjRS4uONed_kkeIve0yUYJU24IfdU9_kJLM7YzGWhgSXZ6m22S76uCxNJbGt6BRfMnb45-01i_riiU8W7FXtcrA5vx-KArLE_pitkhfhjuKrlC3fS6XvZLv2HRvoxN4zTdj3mFwbqEByg=w1448-h1578-no?authuser=1",
     isComplete: false,
     isInTeam: false,
   },
@@ -31,7 +34,8 @@ const projects = [
     title: "Happy Hour",
     category: "Packaging Design",
     year: 2020,
-    image: "https://bit.ly/3zJ3Mpg",
+    image:
+      "https://lh3.googleusercontent.com/lW9qT5Cj-UdvXUA4-buc0TuC01nBEzxWPacsJJi826ZqQFySARo6GNLorxUrqSkXQ01TZm0dnAEuZCWE0UCemv2wnckdMx34fmRxCWos0BlbrX_uC9Os7XVaKosGHA4QwQayaAqIGJkDVi9PUVpdh64x7wxLvQuCQIXg7rvg3_J-2vMF51wDaioa11UD-uTq1qFsvG2Nn2sVNFotFLZEURAofOohwBm-CAApCg_oxdGC3LyzZo1IFLHcAu_CEhDC_PVbvpzhCVd2Ta8QY3oQ8WNBS8BnFTbVz6br7CXByw-3wPBCr-8omu3eFTZtRI3HK-HtDxlfBirKqebrsR0HHY-dcpIeO7B8GKZIUWpAiPjog4RQXmArmHSnik3mpL5hHp_yNN6aO8WYBoEwyMsF0GTKy4KrgpQO4J3BQ7Cg7FGj0mLMnUbOXIxTpIr6hWzkAjLPhhzrmNNPmH-AyEgB0ntky9cpUJrqp0UkTU5Lx9IUoDwTFXK7rTlpmLOPOe3b0LNwpvIyKUB5TeUc5K-C22g7pHeBpXpT9A-NnbC3gzMcEJhwmnMsH_woJXIZCJPAv-l-HUBLpKA7KZiPhMe1z9VeTx_kkfN3hJ9UEFBQ6RzdadEB4pM-ts8P-aUhrTgwZ89gWMkEekcRE14-yOJuXBTchBrRdAc3HUkscpPL_11g2wcEauY-dJzBQ9F7sLTf7-Nj2k_zjGfuT2XeSt1bj19NPWCoBQtmY5fmAFl4IXxbhsj2ecWx29k7fZxzM1QrAARf6tdJeYhI9VM2ORPDn1poiPIMxMsbePARlaCNW4qAXsHZJ6ay-VvIRhYXcDAWUtcpx4N9sjK_yP2v1BmgyIR9nsCh9wIRuFNu6iwNklskl0ky20fvJk5GQBvjDgCQJVaBKadUAKyk-tVqFiyY0GgttBx3OOjiykrrWx8gFU24mFuZRp1r8qs4E4zI_lAqsEQ7dgPcw1eGkTAWLo92Cwx5eYka5S3734dXjrZkUyUCTF3YnJuw160HLGykk736FdEGu03Egv5_YbzFibDAmP4YAw=w359-h287-no?authuser=1",
     isComplete: true,
     isInTeam: false,
   },
@@ -40,7 +44,8 @@ const projects = [
     title: "FILA Packaging Award",
     category: "Packaging Design",
     year: 2020,
-    image: "https://bit.ly/3DYXhkw",
+    image:
+      "https://lh3.googleusercontent.com/aYTNr0vgR8QqBSTSkzF2BpOgx20DgTPFjZhaijNrSvl5g_lOQANzN1i7mxQq0ERNvLZkJw4OB1X1evgDga4xuDX2HEOxkTpvjuDxU3wjnGiPbvlK-ZMVCrkMfiT8dgLbgXnqK7tS3gpkhI9u4T6qZIfPyOka8ndX3PRF4L4o1Jp1OO6G8nCcMnZZ90EZmuEbXciTfic7LpczdOHqspGPgYEViBUZODUOpZc9Oa5kZb-GAIjSSD67Ph1j4sdfagdLnRs8oF7RmcWla8LBjXryYmI-yiTjnMSZ1s6-sKXd5JNm56XhxtpmLJRLPNZrO3sIQSmmdFVYsMAtnS6pBxNhvRR362M14xoMlOdRb84mtyxwjNCtMwKHt2muiqSuRs6w0M7Etm-Yjg4G9b3wssOC2f8FA6DBEp1XLHjQW5ScgEfDX5odXEDJSc80itOrzNutciIecLYUUSgYLycbf5MOjdfmrs5_A4Gsw6QCBdq8ZVIz2sWs_wfsf_uNvyHZ91n-uym22rdyEJ5OHlIVi2aOl0Txc0umrL16dFksq43tDD4ZVnUVcgG64SfY8CGjmVo9sONY4ID7BRWT0NJ3ERiCbvTwWQ-T1mGymZgLA4FjOi4uACjGEZdR4TQh_k9jEs0nnzWJ2XsSM4_5MjVyilNBI3jOZDh_KOi15R8vF5sJB-gQrURxPUnBdnSQ3rzqoRwRN9_WUGA6AxKZd8fkpuOPgSIt1z3x0SsxqEhE6b_w8TbpLuWFmb37MJ6rVldSAsUOZIWKXoW_iRYw7ZZySMSPErO_D6ioi2lHKLhS0rILf-YXKF5RgkvzthyKsqWmwbiYesXv4bYdJEvwav5H_s4kWV-jOe6N8oQvy0lMHVt6pdL39AW__NQLnioGyzYmc3FYw0pGOVoipIej_gyui5vmzt7g6ofaM5VY7_hd6JRcpCHD3cuZGqthHZwZyiY3dujdEenV53RCwkl9yX7DEFuYsVC_VkBtn-9vDiOeXsikjWs3V7NoLv4lEFlmRFOaazpBleGnqDiZVJ5qjjknCCR4e9GMNA=w1056-h1578-no?authuser=1",
     isComplete: true,
     isInTeam: true,
   },
@@ -49,7 +54,8 @@ const projects = [
     title: "Conservatorio A. Corelli",
     category: "Brand Design",
     year: 2020,
-    image: "https://bit.ly/3WtdhCL",
+    image:
+      "https://lh3.googleusercontent.com/8dCI3iID8afyINOI1P6u5FoD3Pc7ogmOx1c4Q-qeKs8nGLpdPebRRvogXw-HdGL0klPr7lw6UcSXXZd5AofY0WWUn1sGwyDYrJF7wPUzgQZ04cMQAZvYodV-e3rYwTmDhT-lLWaJtmrJg6JK97L_BdJd1FAGvELVH7yvHvCms2biEh7wejDMwbrLGbD1oAfK-TpOemUKqOjT_VnT5ONe7ZH9um-WkLyuW7w4V3BoyWz5K-MX9k7BZXvCPnzY9IIZ5kBKNSVDG18fmpj8-BLN51M8YuP2Se_70IXQGJzgovI1lt5GSLVxNzNzCpHtS0KoMwDn8R3_OFPWXyD_uWHAr3MM69nK2TvyPYeTjDCDqAxVkvbfE5pafrAI90RR8zv5jvWF5gDAizSBjwD3kyrh0ELyD7kQ0mXpx5QgyBFA922GC__tMsmUhT3vegLhRsH0b_AjIAp7wkpzU4XECKthKpCGaEE-m7nlo2doCrSw8ZbkLHwy33dIiHO5mbmOhbA1aoAg-TAksSo8XCBqmqVal3xYkwh-JBIqL9qQr7oZKI7LRpOWb-J7ZN8-cDjXHsqG-7DgRRWu_M8x-wnGr6AoLxsz6lI3Cjvg-AuMe_2uVNiiw-ghSfsFuFYxfur_B1tgNA_7KAjGBqN2JkwayIe94Bz85QZaB6qcukD_eolm-zJXrIIv_gVGB7pIGKvXMwwMScWv8KtpZXHYajU7ino27htI4TxWaJs4vMi82bOdtinjso8Xm42G9rkkXIHs6RGKG23IsuhmZIfPq3QG64iut5qk3_Z82RDDaZFozTyP1s6oHlUFvKVl95blWoB4V6fIjd0YTAdwru5TBh0NiSsUdiSS1LnTMewDXOUCy1lwv_JVrNlhTE76ymIJ7pHymaTFvofLvQaenMfCkHjF_LmBD2oBAIy_xsuw8na8iKXSZun1WhqQgkAaQxnNwmowAV4M0YhXbqbadrZtHNSxEosx1K2xqMXVHugvKs7OoiaN2z36jU8ikQ3FFIwoxKllwWaltpzD8xxxSnf0vbp91Hm-o6e1SA=w243-h325-no?authuser=1",
     isComplete: true,
     isInTeam: false,
   },
@@ -58,7 +64,8 @@ const projects = [
     title: "Lo Studente in Crisi",
     category: "Brand Design",
     year: 2020,
-    image: "https://bit.ly/3h9Equi",
+    image:
+      "https://lh3.googleusercontent.com/QKnU3D7erQj_SqDVyP3sph7zO_FOi2jf2v0fIBZpcS-vLXDEm3AyKMpqbJHNUhWrlfOyLRxmHBQdgndbBPsvG7lT0tvKfWIvSwa3uAhxag7GgOaX2dTzp4io6n2EJFjJdExnmImmYUcsJRKIplIx9Xei15LvKH10h4sh3tqHnLvlBCU1JLUeUreeKDxYXuEsj5WFN7pO7KqFQ7KuJSj36ZSsWP5JPtdwiNcLivDAk07BtN7qUAR86TLuBrJCA_Sf4hffNBaZ6JRh5BI2e3cVXHzzp33gJkzZq8AHZfnYbVwiPDqmvFeOIpL3j7lxXNeQimpbfA69fVd636s95UFS3de8dUls6oxsN46YzGeaDdExJ18grkdp33zdUMekt7NOuvMg8Ij83td33-LOH6uLXvWKxxHjD3d0KCm1zIIH-209X8h3gYu83m22yLSwvSZRbQ1DQ3zZ5unMzHurpB1Gn5W83KPoK2sRE0wxtzyRJDt-Q9TGdfWskTaES6yqDY7xw_k3v40YyndDBJUK1n6Bqpzw0j7nfXcZaqscx1ACP2-RKOo08jYsHqD-xhoghjwvhFLJegHV0DJvBEmjk-ALU5YziHOuay-orQZ5o2VhVYlkh5anCf_tKKOlOv8P0Y8xM6kdTSAgj_GFpZT1Ku19Yb-NEGyvsggBLJ2bid8AVl25hCvq28f2iEOJ1S0UUoO3Pvt-Zhjia87tlqM5iLI3nfuyNQrdjXGUgJgzFCBEVSndGKF8klB6iVS3Acn5BPUgYUgPKDRErGzH7U9Q4X6I25m8YhJGH191_DEMOMDaBwjP8DvE2P0otZ5YdojLXzGMm77D-GXkB3rc-Dkp3ZdT4vDUq6wQayp9lgoXtJob0qHPLndFbIILq0S6AMWfa0fLHwpUR3ar8ZT3iVJP_nt4yfVAzPty2bu2n9psRvfcEfoVUvahO4Y4dryQAQ5JgVETlqvmN66sdb0Kf5-yD9296_bNk9XCZYNCQTFTa9XS0k_-Zt9YEOwK6UqnEtFqz8w5RyVBydVQt9O5iJuMYM9XGCw2VQ=s1578-no?authuser=1",
     isComplete: true,
     isInTeam: false,
   },
@@ -67,7 +74,8 @@ const projects = [
     title: "Didot: type specimen",
     category: "Layout Design",
     year: 2019,
-    image: "https://bit.ly/3h7G5jV",
+    image:
+      "https://lh3.googleusercontent.com/222BcFetsXfUn-e_KkjL8bw8uSbizMILC28jcGuYCtD7A-czj5YSos6mjTgx-bIQC9cxVjx0w-Zhwjcpd4EgsQAaUHQ-11hyu4KhDqXKEpMV2T_9wkYoKGJta7Ph1a7qVf3U9-jyUGm_VN6t_SKU08OihFI26etQXS059G-3Nzwp9mVUu0wLk8kTXeVmzXPOTodNC6g-wQkS8R2AUmR8rYonhLRtDasINWZroYXls6LJzPKveXB3v6CnQaVf4AeOkLYTWSOuWsbIhR88buSJC4WwC16sjqhG6ImtfI9HIqhoORPhBHdXdriL0zlH80JbLqD-OuhxgY5Jsw-u6YyvWhDmIIknmdDzz98CY_4LEItBG6N7x68T3SDONs3FngN31kv-OKJQ-4yvMnJelegFbzU6H2zmGmom61kMc52HgALqIwSr_fP6Axx2ysfRNsT7jf6n01xSy695VywOB9CF6eBt5dm8v_hGfXmYG0QdJv910JA_Kinlouv5kreX8NUv0wAmafK-5fZVX5UcQ5fC4YoCDCYKAUDpF0ssEJ19sa84Ue0J1BFoIu12JC9tswR0SbKULSRr7XbFqI0leCKuXfXcew9wOUk6T5PHDruYOxDF_-lxA5TBVR49FSH2yvEEAsXGED74tsHSUhGyJCXxUkrkUdqK-xMcM6kdByzJbC_FrtbKQtuQtI_EuFOk2rC3Abt6xNBsn-wT89YVoWYfFk2Q2Zxrk_Wl44E3BNZD-LxFfxPJcsJ4MK5r1uRtLJa84inc8aBD_-RknpDWoHQPKt-tXpW7vmiuR6m8xIoTwSRxbKnvJIRHXgvpJwPSkjJG6o-2OSK5H9e5qkSxRnQgGWIuQPrVZ9pEhlEq-n-OUh4HS-ltXO3s-L2WEqQBaRh98Hs2R36eTKRz-CHdqQStb4v95gIZ0Nxrt2DPoiV6X2SVeXmwJD5T_g9Q38a3zMSaeyCYDJthvg6YNJ0O7U6ij-xp1g4ZWoBEqvBF3IhKUJRTu7T64E2Gk1Z10bc1afa1nptGlbV1-vd_ThReockGIYjmfw=w480-h319-no?authuser=1",
     isComplete: true,
     isInTeam: false,
   },
