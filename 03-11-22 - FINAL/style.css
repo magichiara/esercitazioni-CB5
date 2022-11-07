@@ -22,7 +22,7 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 nav ul {
@@ -86,11 +86,12 @@ section {
 .hero-text {
   position: absolute;
   transform: translateY(50px);
+  z-index: 1;
 }
 
 .hero-text__title {
   font-family: "DM Serif Display", serif;
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: 600;
   color: #ff9b9f;
 }
@@ -98,6 +99,7 @@ section {
 .hero-text__par {
   font-size: 1.22rem;
   color: #626262;
+  font-weight: 550;
 }
 
 .hero-text2 {
@@ -246,6 +248,7 @@ textarea {
 #submit {
   margin-top: 15px;
   width: 300px;
+  height: 50px;
   align-self: center;
   padding: 12px;
   background-color: #ff9b9f;
