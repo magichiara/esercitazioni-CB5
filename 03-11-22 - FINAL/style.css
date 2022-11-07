@@ -70,7 +70,13 @@ section {
   padding: 10px 0;
   color: #383132;
   font-weight: 550;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
+  display: none;
+}
+
+.sections-title__aboutme {
+  padding-top: 30px;
+  display: none;
 }
 
 /* --- Section: hero/aboutme --- */
@@ -85,19 +91,19 @@ section {
 
 .hero-text {
   position: absolute;
-  transform: translateY(50px);
+  transform: translateY(25px);
   z-index: 1;
 }
 
 .hero-text__title {
   font-family: "DM Serif Display", serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #ff9b9f;
 }
 
 .hero-text__par {
-  font-size: 1.22rem;
+  font-size: 1.1rem;
   color: #626262;
   font-weight: 550;
 }
@@ -172,6 +178,10 @@ section {
 .category-title {
   font-weight: 550;
   font-size: 1rem;
+}
+
+.category-title-uxui {
+  padding-top: 30px;
 }
 
 .card-title {
@@ -318,6 +328,13 @@ footer {
 
   .sections-title {
     font-size: 1rem;
+    display: block;
+  }
+
+  .sections-title__aboutme {
+    padding-top: 30px;
+    display: block;
+    font-size: 1rem;
   }
 
   /* --- Section: hero/aboutme --- */
@@ -435,10 +452,12 @@ footer {
   .sections-title {
     padding-top: 20px;
     font-size: 1.2rem;
+    display: block;
   }
 
   .sections-title__aboutme {
     padding-top: 30px;
+    font-size: 1.2rem;
   }
 
   /* --- Section: hero/aboutme --- */
