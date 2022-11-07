@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chiara Maggio - Web Designer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/a99162c19d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <!-- HEADER + NAVBAR -->
+    <header>
+      <div class="header-elements">
+        <img src="./imgs/cm_logo.png" alt="logo img" class="logo" />
+        <h2 class ="logo-text">VISUALDESIGNER</h2>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#aboutme">ABOUT ME</a>
+          </li>
+          <li>
+            <a href="#projects">PROJECTS</a>
+          </li>
+          <li>
+            <a href="#contactme">CONTACT ME</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- --- MAIN --- -->
+    <main>
+      <!-- Section: hero/aboutme -->
+      <section id="hero">
+        <h3 class="sections-title__aboutme">ABOUT ME</h3>
+        <div class="hero-text">
+          <h1 class="hero-text__title">Hello There!</h1>
+          <p class="hero-text__par">I'm Chiara.</p>
+        </div>
+        </div>
+        <div class="hero-img">
+          <img src="./imgs/me_nobg2.png" alt="hero img" class="hero-img__pic"/>
+          <div class="hero-img__rect"></div>
+          <div class="hero-img__circle"></div>
+       </div>
+      <div class="hero2">
+        <div class="hero-img2">
+          <img src="./imgs/me_nobg2.png" alt="hero img" class="hero-img__pic2"/>
+          <div class="hero-img__rect2"></div>
+          <div class="hero-img__circle2"></div>
+        </div>
+        <div class="hero-text2">
+          <h1 class="hero-text__title2">Hello There!</h1>
+          <p class="hero-text__par2">I'm Chiara.</p>
+          <p class="hero-text__descr">VISUALDESIGNER</p>
+          <button class="open-modal">GET MY RESUME</button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal">
+        <h4 class="modal-title">Welcome to my world!</h4>
+        <p class="modal-par">For further information about myself please download my resume or go to link</p>
+        <div class="buttons">
+          <button class="btn-download">DOWNLOAD</button>
+          <button class="btn-link">GO TO FILE</button>
+        </div>
+        <button class="close-modal">CLOSE</button>
+      </section>
+
+      <!-- Section: projectgallery -->
+      <section id="projects">
+        <h3 class="sections-title">PROJECTS</h3>
+        <div class="projects-gallery">
+          <h4 class="category-title">UX/UI Design</h4>
+          <div class="uxui-design"></div>
+          <h4 class="category-title">Packaging Design</h4>
+          <div class="packaging-design"></div>
+          <h4 class="category-title">Brand Design</h4>
+          <div class="brand-design"></div>
+          <h4 class="category-title">Layout Design</h4>
+          <div class="layout-design"></div>
+        </div>
+      </section>
+
+      <!-- Section: form/contactme -->
+      <section id="contactme">
+        <h3 class="sections-title">CONTACT ME</h3>
+        <div class="form-container">
+          <div class="contactme-text">
+            <p>For info & collaboration send me a message!</p>
+          </div>
+          <form id="contactme-form">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Inserisci il tuo nome"
+              required
+            />
+            <input
+              type="text"
+              name="cognome"
+              id="cognome"
+              placeholder="Inserisci il tuo nome"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Scrivi il tuo messaggio"
+              required
+            ></textarea>
+            <input id="submit" type="submit" value="INVIA" />
+        </div>
+        </form>
+      </section>
+    </main>
+
+      <!-- Footer -->
+      <footer id="footer-section">
+        <h4 class="footer-text">FOLLOW ME</h4>
+        <div class="icon-bar">
+          <a class="active" href="https://www.linkedin.com/in/chiaramaggio/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/magichiara_/"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://github.com/magichiara"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+      </footer>
+   
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
