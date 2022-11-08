@@ -569,7 +569,7 @@ footer {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     opacity: 0;
     transform: translateY(-25px);
-    transition: all 0.35s;
+    transition: all 0.5s;
   }
 
   .open-modal:hover {
@@ -591,8 +591,9 @@ footer {
     align-items: center;
     transform: translateY(45px);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    visibility: hidden;
-    transition: all 1s;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
   }
 
   .modal-title {
@@ -638,7 +639,7 @@ footer {
     right: 30px;
     border: none;
     background-color: transparent;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-decoration: underline;
     font-weight: 600;
     color: #6d6969;

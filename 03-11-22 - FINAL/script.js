@@ -100,7 +100,7 @@ const timeoutShowModalBtn = setTimeout(showModalBtn, 3500);
 const modalEl = $qs(".modal");
 
 modalBtnEl.addEventListener("click", () => {
-  modalEl.style = "visibility: visible;";
+  modalEl.style = "opacity: 1; z-index: 1;";
 });
 
 const closeModalBtnEl = $qs(".close-modal");
