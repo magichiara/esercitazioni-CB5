@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap");
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Manrope", sans-serif;
+}
+
+.post-box {
+  background-color: rgb(250, 246, 246);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid salmon;
+}
+
+h1 {
+  color: grey;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  padding: 0;
+}
+
+.post-head {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.post-title {
+  color: salmon;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.post-id {
+  color: salmon;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.post-body {
+  font-weight: 600;
+  color: grey;
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+.post-btns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.post-btn__prev,
+.post-btn__next {
+  padding: 15px 30px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  background-color: rgb(250, 246, 246);
+  border: 2px solid salmon;
+  color: salmon;
+}
+
+.post-btn__prev:hover {
+  cursor: pointer;
+  background-color: salmon;
+  color: white;
+  transition: all 0.35s;
+}
+
+.post-btn__next:hover {
+  cursor: pointer;
+  background-color: salmon;
+  color: white;
+  transition: all 0.35s;
+}
