@@ -1,0 +1,24 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "type": "grass"
+    },
+    {
+      "id": "507ce5a9-d9e4-4e6a-9de9-b506b681dcf1",
+      "name": "Charmender",
+      "type": "fire"
+    },
+    {
+      "id": "877da863-6749-4132-abdd-7d90b1a8c56e",
+      "name": "Psyduck",
+      "type": "water"
+    },
+    {
+      "id": "3832a2e2-5b07-4296-aec5-a0ad2a75f72a",
+      "name": "Wobbuffet",
+      "type": "psychic"
+    }
+  ]
+}
