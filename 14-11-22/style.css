@@ -70,14 +70,10 @@ h1 {
 
 .post-btn__prev:hover {
   cursor: pointer;
-  background-color: salmon;
-  color: white;
   transition: all 0.35s;
 }
 
 .post-btn__next:hover {
   cursor: pointer;
-  background-color: salmon;
-  color: white;
   transition: all 0.35s;
 }

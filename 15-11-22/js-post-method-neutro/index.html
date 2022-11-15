@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercitazione 15-11-22</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="pokemon-logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png"
+        alt="pokemonlogo"
+      />
+    </header>
+    <div class="form-container">
+      <h2>Inserisci il Pokémon che vuoi!</h2>
+      <form name="pokemon">
+        <input type="text" name="pkmName" placeholder="Name" />
+        <input type="text" name="pkmType" placeholder="Type" />
+        <input class="submit" type="submit" />
+      </form>
+    </div>
+    <div class="gallery">
+      <div class="poke-title">
+        <h2>Ecco la lista dei tuoi Pokémon</h2>
+      </div>
+      <div class="poke-gallery"></div>
+    </div>
+
+    <footer>Made with Cuteness by @magichiara</footer>
+
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/utils.js"></script>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: goldenrod;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.pokemon-logo {
+  height: 70px;
+}
+
+.form-container {
+  margin-top: 100px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(213, 228, 242);
+}
+
+h2 {
+  margin: 0;
+  letter-spacing: 0.1rem;
+  color: mediumblue;
+  font-weight: 900;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.submit {
+  height: 40px;
+  background-color: goldenrod;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: mediumblue;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding-top: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(213, 228, 242);
+  border-top: 3px dotted goldenrod;
+  padding: 40px;
+}
+
+.poke-gallery {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.poke-card {
+  width: 150px;
+  height: 220px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.1rem;
+}
+
+.poke-img {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 0.5px solid grey;
+}
+
+.poke-name {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.poke-type {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+footer {
+  height: 80px;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: mediumblue;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* COLORI CARDS */
+
+.bg-grass {
+  background-color: #defde0;
+}
+
+.bg-electric {
+  background-color: #fcf7de;
+}
+
+.bg-water {
+  background-color: #def3fd;
+}
+
+.bg-ground {
+  background-color: #f4e7da;
+}
+
+.bg-rock {
+  background-color: #d5d5d4;
+}
+
+.bg-fairy {
+  background-color: #fceaff;
+}
+
+.bg-poison {
+  background-color: #98d7a5;
+}
+
+.bg-bug {
+  background-color: #f8d5a3;
+}
+
+.bg-dragon {
+  background-color: #97b3e6;
+}
+
+.bg-psychic {
+  background-color: #eaeda1;
+}
+
+.bg-flying {
+  background-color: #f5f5f5;
+}
+
+.bg-fighting {
+  background-color: #e6e0d4;
+}
+
+.bg-normal {
+  background-color: #f5f5f5;
+}
+
+.bg-fire {
+  background-color: #fddfdf;
+}
+
+.bg-ghost {
+  background-color: #705898;
+}
+
+.bg-ice {
+  background-color: #98d8d8;
+}
