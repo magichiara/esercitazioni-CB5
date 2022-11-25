@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap");
+
+html,
+body {
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+
+.wrapper-calc {
+  display: flex;
+  padding: 20px;
+  gap: 25px;
+}
+
+h3 {
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.btn-calc {
+  color: salmon;
+  font-size: 1rem;
+  font-weight: 800;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.wrapper-oper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid salmon;
+  outline-color: salmon;
+}
+
+.btn-sum,
+.btn-sub,
+.btn-mult,
+.btn-div {
+  padding: 10px 20px;
+  border: 1px solid salmon;
+  background-color: salmon;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.35s;
+}
+
+h6 {
+  text-decoration: underline;
+}
+
+h6:hover {
+  cursor: pointer;
+}
