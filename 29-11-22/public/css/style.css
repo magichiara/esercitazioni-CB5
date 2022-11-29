@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap");
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0;
+}
+
+/* --- GALLERY --- */
+h1 {
+  font-size: 2.5rem;
+}
+.actors_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 25px 15px 25px 15px;
+}
+
+.card {
+  width: 230px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.card-id {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  font-family: "Old Standard TT", serif;
+  font-size: 4rem;
+  color: rgb(115, 2, 2);
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(208, 208, 208);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.card-info {
+  width: 150px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: rgb(115, 2, 2);
+}
+
+.card-name {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.card-surname {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.card-birth {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
