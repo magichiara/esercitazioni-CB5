@@ -27,13 +27,13 @@ const createCardAct = (items) => {
     surnameEl.className = "card-surname";
     delBtnEl.className = "card-btn";
 
-    idEl.textContent = item.id;
+    idEl.textContent = items.indexOf(item) + 1;
     nameEl.textContent = item.nome.toUpperCase();
     surnameEl.textContent = item.cognome.toUpperCase();
     delBtnEl.textContent = "DELETE";
 
-    infoEl.append(nameEl, surnameEl);
-    cardEl.append(idEl, imgEl, infoEl, delBtnEl);
+    infoEl.append(imgEl, nameEl, surnameEl);
+    cardEl.append(idEl, infoEl, delBtnEl);
     containerActEl.appendChild(cardEl);
 
     // DELETE

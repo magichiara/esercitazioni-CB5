@@ -8,37 +8,44 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header></header>
+    <div class="hero">
       <img
-        src="https://cdn-icons-png.flaticon.com/512/1752/1752782.png"
-        alt="logo-img"
-        class="logo"
+        src="https://assets.deutschlandfunk.de/FILE_78b928e0f39644a20d5300e24841bc4d/1920x1080.jpg?t=1608979928106"
+        alt="heroimg"
+        class="hero__img"
       />
-      <h1 class="header-txt">VIDEOTECA</h1>
-    </header>
-    <h1>Aggiungi attore</h1>
+      <h1 class="hero__txt">WELCOME TO MY VIDEO LIBRARY</h1>
+    </div>
+    <div class="gallery__txt">
+      <h1 class="gallery__title">Galleria Attori</h1>
+      <h3 class="gallery__subtitle">
+        Cerca o aggiungi i tuoi attori preferiti
+      </h3>
+    </div>
     <form class="form-container" name="attori">
-      <input
-        class="actorName"
-        type="text"
-        name="actorName"
-        placeholder="Inserisci il nome..."
-      />
-      <input
-        class="actorSurname"
-        type="text"
-        name="actorSurname"
-        placeholder="Inserisci il cognome..."
-      />
-      <input
-        class="actorYob"
-        type="text"
-        name="actorYob"
-        placeholder="Inserisci la data di nascita..."
-      />
+      <div class="text__input">
+        <input
+          class="actorName"
+          type="text"
+          name="actorName"
+          placeholder="Inserisci il nome..."
+        />
+        <input
+          class="actorSurname"
+          type="text"
+          name="actorSurname"
+          placeholder="Inserisci il cognome..."
+        />
+        <input
+          class="actorYob"
+          type="text"
+          name="actorYob"
+          placeholder="Inserisci la data di nascita..."
+        />
+      </div>
       <input type="submit" value="ADD" class="add-btn" />
     </form>
-    <h1>Galleria Attori</h1>
     <div class="act_gallery"></div>
     <h1>Galleria Registi</h1>
     <div class="reg_gallery"></div>
