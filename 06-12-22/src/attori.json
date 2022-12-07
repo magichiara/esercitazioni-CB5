@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "nome": "Robert",
+    "cognome": "De Niro",
+    "data_nascita": "17/08/1943",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1960",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": 3,
+    "nome": "Uma",
+    "cognome": "Thurman",
+    "data_nascita": "29/04/1970",
+    "riconoscimenti": "tanti",
+    "inizio_attivita": "1998",
+    "fine_attivita": "",
+    "in_attivita": "true"
+  }
+]
