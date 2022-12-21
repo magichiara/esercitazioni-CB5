@@ -1,0 +1,25 @@
+.btn {
+  padding: 10px 12px;
+  width: 100px;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  border: none;
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: all 0.15s ease-out;
+}
+
+.btn--variant-primary {
+  background: #f6511d;
+}
+
+.btn--variant-none {
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ffb400;
+}
