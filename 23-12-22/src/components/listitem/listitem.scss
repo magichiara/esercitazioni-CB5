@@ -1,0 +1,25 @@
+.items-container {
+  border-radius: 0.5rem;
+  padding: 1em;
+  width: 150px;
+  height: 60;
+  background-color: rgb(255, 250, 242);
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  .item-name {
+    margin: 0;
+    text-transform: uppercase;
+    color: black;
+    font-size: 0.9rem;
+  }
+
+  .item-status {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+}
