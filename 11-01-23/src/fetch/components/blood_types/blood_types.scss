@@ -1,0 +1,23 @@
+.info-blood {
+  width: 350px;
+  height: 200px;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  gap: 2rem;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  img {
+    width: 100px;
+  }
+
+  .type {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 3rem;
+  }
+}
