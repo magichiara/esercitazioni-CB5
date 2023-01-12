@@ -1,0 +1,11 @@
+.container {
+  width: 100vw;
+  padding: 2rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  select {
+    padding: 0.2rem;
+  }
+}
