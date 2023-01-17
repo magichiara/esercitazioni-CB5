@@ -3,10 +3,18 @@ const BASE_URL = "https://dummyjson.com";
 
 // GET
 const GET = async (resource) => {
-  const res = await fetch(`${BASE_URL}/${resource}`);
-  const data = await res.json();
-
-  return data;
+  try {
+    const res = await fetch(`${BASE_URL}/${resource}`);
+    if (res.status >= 400) {
+      throw new Error("Problem connecting to server");
+    }
+    const data = await res.json();
+    return data;
+  } catch (err) {
+    return { status: false };
+  } finally {
+    console.log("Finally");
+  }
 };
 
 // POST

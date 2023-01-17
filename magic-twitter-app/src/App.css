@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+  border-left: 0.5px solid rgba(211, 211, 211, 0.573);
+  border-right: 0.5px solid rgba(211, 211, 211, 0.573);
+}
+
+.right-section {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .main-section {
+    width: 100vh;
+  }
+
+  .left-section {
+    padding: 2rem;
+    width: 50vh;
+  }
+
+  .right-section {
+    display: flex;
+    padding: 2rem;
+    width: 50vh;
+  }
+}

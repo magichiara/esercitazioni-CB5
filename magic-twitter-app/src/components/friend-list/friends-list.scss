@@ -1,0 +1,18 @@
+.FriendList {
+  padding: 1rem;
+  overflow-x: scroll;
+  display: flex;
+  gap: 1rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+// BPS
+@media (min-width: 800px) {
+  .FriendList {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

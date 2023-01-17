@@ -1,0 +1,14 @@
+.TrendList {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #202021;
+  border-radius: 1.4rem;
+
+  div {
+    h2 {
+      margin: 0;
+    }
+  }
+}
