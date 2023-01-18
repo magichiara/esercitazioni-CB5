@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./new-tweet.scss";
 
 export const NewTweet = () => {

@@ -5,7 +5,12 @@ export const TrendItem = ({ data }) => {
   return (
     <div className="TrendItem">
       <h4>{data.title}</h4>
-      <p>{`#${data.tags[0]} #${data.tags[1]}`}</p>
+      <div>
+        {data.tags.map((tag, index) => (
+          <p key={index}>#{tag}</p>
+        ))}
+      </div>
+
       <div>
         <AiFillHeart />
         <h5>{data.reactions}</h5>

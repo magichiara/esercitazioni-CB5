@@ -13,7 +13,6 @@ const GET = async (resource) => {
   } catch (err) {
     return { status: false };
   } finally {
-    console.log("Finally");
   }
 };
 
@@ -29,4 +28,4 @@ const POST = async (resource, body) => {
   return data;
 };
 
-export { GET };
+export { GET, POST };
