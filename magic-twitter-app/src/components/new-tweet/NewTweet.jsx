@@ -1,7 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./new-tweet.scss";
+import { SlPicture } from "react-icons/sl";
+import { AiOutlineGif } from "react-icons/ai";
+import { AiOutlineUnorderedList } from "react-icons/ai";
+import { FiSmile } from "react-icons/fi";
+import { HiOutlineCalendar } from "react-icons/hi";
+import { RiMapPinLine } from "react-icons/ri";
 
-export const NewTweet = () => {
+export const NewTweet = ({ modalHandler }) => {
   const [tweet, setTweet] = useState("");
 
   const handleTweetChange = (event) => {
@@ -10,7 +16,7 @@ export const NewTweet = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(tweet);
+    if (modalHandler) modalHandler(false);
   };
 
   return (
@@ -26,7 +32,19 @@ export const NewTweet = () => {
             onChange={handleTweetChange}
           />
         </div>
-        <input className="btn" type="submit" value="Tweet" />
+        <div className="second-line">
+          <div className="icons">
+            <SlPicture />
+            <div className="gif">
+              <AiOutlineGif />
+            </div>
+            <AiOutlineUnorderedList />
+            <FiSmile />
+            <HiOutlineCalendar />
+            <RiMapPinLine />
+          </div>
+          <input className="btn" type="submit" value="Tweet" />
+        </div>
       </form>
     </div>
   );

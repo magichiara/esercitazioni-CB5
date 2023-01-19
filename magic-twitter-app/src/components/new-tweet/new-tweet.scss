@@ -20,7 +20,7 @@
       }
 
       input {
-        width: 85%;
+        flex-grow: 1;
         padding: 1rem 0;
         background-color: transparent;
         color: white;
@@ -31,17 +31,35 @@
       }
     }
 
-    .btn {
-      align-self: flex-end;
-      padding: 0.7rem 0.9rem;
-      width: 100px;
-      border: none;
-      border-radius: 50px;
-      background-color: #1da1f2;
-      color: white;
-      font-size: 1.1rem;
-      font-weight: 600;
-      cursor: pointer;
+    .second-line {
+      margin-left: 88px;
+      display: flex;
+      justify-content: space-between;
+
+      .icons {
+        color: #1da1f2;
+        font-size: 1.2rem;
+        display: flex;
+        gap: 0.6rem;
+        cursor: pointer;
+
+        .gif {
+          font-size: 1.4rem;
+        }
+      }
+
+      .btn {
+        flex-grow: 0;
+        width: 110px;
+        padding: 0.7rem 0.9rem;
+        border: none;
+        border-radius: 50px;
+        background-color: #1da1f2;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
     }
   }
 }

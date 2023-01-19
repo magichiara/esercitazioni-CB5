@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { GET } from "../../utils/endpoint";
 import { FriendItem } from "../friend-item/FriendItem";
 
-export const FriendList = () => {
+export const FriendList = ({ setModalContent, setModal }) => {
   const [friendsList, setFriendsList] = useState([]);
 
   useEffect(() => {
@@ -13,7 +13,12 @@ export const FriendList = () => {
   return (
     <div className="FriendList">
       {friendsList.map((friend) => (
-        <FriendItem data={friend} key={friend.id} />
+        <FriendItem
+          data={friend}
+          key={friend.id}
+          setModalContent={setModalContent}
+          setModal={setModal}
+        />
       ))}
     </div>
   );

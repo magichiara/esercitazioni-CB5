@@ -1,5 +1,6 @@
 .Modal {
   position: fixed;
+  animation: fadeIn 0.3s;
 
   .overlay {
     position: fixed;
@@ -20,7 +21,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: black;
-    width: 400px;
+    width: 450px;
+    animation: fadeIn 0.8s;
 
     button {
       position: absolute;
@@ -40,5 +42,14 @@
     .content {
       width: 700px;
     }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

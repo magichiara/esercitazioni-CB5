@@ -8,14 +8,16 @@ import { TrendList } from "./components/trend-list/TrendList";
 import { Navbar } from "./components/navbar/Navbar";
 import { Modal } from "./components/modal/Modal";
 import { Searchbar } from "./components/searchbar/Searchbar";
+import { FriendDetails } from "./components/friend-details/FriendDetails";
 
 const App = () => {
   const [modal, setModal] = useState(false);
   const [filter, setFilter] = useState("");
+  const [modalContent, setModalContent] = useState("NewTweet");
 
   const modalHandler = () => {
     setModal((prevstate) => !prevstate);
-    console.log("eduardo");
+    setModalContent("NewTweet");
   };
 
   return (
@@ -24,16 +26,23 @@ const App = () => {
       <Header />
       <div className="wrapper">
         <div className="left-section">
-          <FriendList />
+          <FriendList setModalContent={setModalContent} setModal={setModal} />
         </div>
         <div className="main-section">
           <NewTweet />
           <Searchbar setFilter={setFilter} />
-          <Modal
-            children={<NewTweet />}
-            modalstate={modal}
-            modalHandler={modalHandler}
-          />
+          {modal && (
+            <Modal
+              children={
+                modalContent === "NewTweet" ? (
+                  <NewTweet modalHandler={modalHandler} />
+                ) : (
+                  <FriendDetails id={modalContent} />
+                )
+              }
+              modalHandler={modalHandler}
+            />
+          )}
           <TweetList filter={filter} />
         </div>
         <div className="right-section">

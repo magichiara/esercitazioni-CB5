@@ -9,6 +9,10 @@
     background-color: white;
   }
 
+  h4 {
+    margin: 0;
+  }
+
   p {
     font-size: 0.9rem;
     display: -webkit-box;
@@ -16,5 +20,25 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     line-height: 1.3rem;
+  }
+
+  .reaction {
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+    color: #1da1f2;
+
+    h5 {
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .TweetItem {
+    p {
+      -webkit-line-clamp: 7;
+    }
   }
 }

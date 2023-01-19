@@ -30,6 +30,11 @@
       background-color: transparent;
       color: white;
       border: none;
+      transition: all 0.25s;
+
+      &:hover {
+        color: #1da1f2;
+      }
     }
   }
 }

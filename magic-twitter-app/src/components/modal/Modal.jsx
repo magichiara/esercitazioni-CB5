@@ -1,8 +1,7 @@
 import "./modal.scss";
 import { MdOutlineClose } from "react-icons/md";
 
-export const Modal = ({ children, modalstate, modalHandler }) => {
-  if (!modalstate) return "";
+export const Modal = ({ children, modalHandler }) => {
   return (
     <div className="Modal">
       <div className="content">
@@ -11,7 +10,7 @@ export const Modal = ({ children, modalstate, modalHandler }) => {
         </button>
         {children}
       </div>
-      <div className="overlay"></div>
+      <div className="overlay" onClick={modalHandler}></div>
     </div>
   );
 };
