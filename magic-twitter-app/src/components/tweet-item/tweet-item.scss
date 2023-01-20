@@ -8,29 +8,32 @@
     border-radius: 50%;
     background-color: white;
   }
-
-  h4 {
-    margin: 0;
-  }
-
-  p {
-    font-size: 0.9rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    line-height: 1.3rem;
-  }
-
-  .reaction {
+  .tweet-text {
     display: flex;
-    align-items: center;
-
+    flex-direction: column;
     gap: 0.5rem;
-    color: #1da1f2;
 
-    h5 {
+    h4,
+    h5,
+    p {
       margin: 0;
+    }
+
+    p {
+      font-size: 0.9rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      line-height: 1.3rem;
+    }
+
+    .reaction {
+      display: flex;
+      align-items: center;
+
+      gap: 0.5rem;
+      color: #1da1f2;
     }
   }
 }

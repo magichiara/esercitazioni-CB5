@@ -1,11 +1,16 @@
 .Header {
-  padding: 1rem 1.5rem;
+  padding: 2rem 1.5rem;
   width: 100%;
   border-bottom: 0.5px solid rgba(211, 211, 211, 0.573);
+
+  h2 {
+    margin: 0;
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 800px) {
   .Header {
-    padding: 0 4rem 1.5rem;
+    padding: 2rem 3.5rem;
   }
 }

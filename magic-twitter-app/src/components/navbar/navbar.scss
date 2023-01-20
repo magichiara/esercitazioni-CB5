@@ -33,10 +33,17 @@
 
     .pic {
       img {
-        width: 40px;
-        height: 40px;
+        box-sizing: content-box;
+        border: 3px solid #1da1f2;
+        width: 43px;
+        height: 43px;
         border-radius: 50%;
         cursor: pointer;
+        transition: all 0.15s ease-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
   }

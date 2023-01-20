@@ -11,7 +11,7 @@ import { HiOutlineUser } from "react-icons/hi";
 import { TbDotsCircleHorizontal } from "react-icons/tb";
 import { ModalBtn } from "../../atoms/modal-btn/ModalBtn";
 
-export const Navbar = ({ modalHandler }) => {
+export const Navbar = ({ modalHandler, auth, logOutHandler }) => {
   return (
     <div className="Navbar">
       <div className="logo">
@@ -32,8 +32,8 @@ export const Navbar = ({ modalHandler }) => {
         <div className="tweet">
           <ModalBtn modalHandler={modalHandler} />
         </div>
-        <div className="pic">
-          <img src="src/assets/profile_img.jpg" alt="profile-img" />
+        <div className="pic" onClick={logOutHandler}>
+          {auth && <img src="src/assets/profile_img.jpg" alt="profile-img" />}
         </div>
       </div>
     </div>

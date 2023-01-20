@@ -1,7 +1,6 @@
 import "./App.css";
-import { useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 import { FriendList } from "./components/friend-list/FriendList";
-import { Header } from "./components/header/Header";
 import { NewTweet } from "./components/new-tweet/NewTweet";
 import { TweetList } from "./components/tweet-list/TweetList";
 import { TrendList } from "./components/trend-list/TrendList";
@@ -9,8 +8,10 @@ import { Navbar } from "./components/navbar/Navbar";
 import { Modal } from "./components/modal/Modal";
 import { Searchbar } from "./components/searchbar/Searchbar";
 import { FriendDetails } from "./components/friend-details/FriendDetails";
+import { Login } from "./components/login/Login";
 
 const App = () => {
+  const [auth, setAuth] = useState();
   const [modal, setModal] = useState(false);
   const [filter, setFilter] = useState("");
   const [modalContent, setModalContent] = useState("NewTweet");
@@ -20,10 +21,23 @@ const App = () => {
     setModalContent("NewTweet");
   };
 
-  return (
+  useEffect(() => {
+    const authValues = localStorage.getItem("auth-values");
+    setAuth(JSON.parse(authValues));
+  }, []);
+
+  const logOutHandler = () => {
+    localStorage.removeItem("auth-values");
+    window.location.reload();
+  };
+
+  return auth ? (
     <div className="App">
-      <Navbar modalHandler={modalHandler} />
-      <Header />
+      <Navbar
+        modalHandler={modalHandler}
+        auth={auth}
+        logOutHandler={logOutHandler}
+      />
       <div className="wrapper">
         <div className="left-section">
           <FriendList setModalContent={setModalContent} setModal={setModal} />
@@ -50,6 +64,10 @@ const App = () => {
         </div>
       </div>
     </div>
+  ) : (
+    <Fragment>
+      <Login />
+    </Fragment>
   );
 };
 
