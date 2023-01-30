@@ -31,14 +31,13 @@
     .reaction {
       display: flex;
       align-items: center;
-
-      gap: 0.5rem;
+      gap: 0.3rem;
       color: #1da1f2;
     }
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .TweetItem {
     p {
       -webkit-line-clamp: 7;

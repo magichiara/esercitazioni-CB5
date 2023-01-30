@@ -22,7 +22,7 @@ export const Searchbar = ({ setFilter }) => {
         <input
           type="text"
           value={input}
-          placeholder="Search..."
+          placeholder="Search Twitter"
           onChange={inputHandler}
         />
         <button form="form" type="submit">

@@ -1,12 +1,11 @@
 .TrendList {
-  padding: 1.2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 0.8rem;
 
-  div {
-    h2 {
-      margin: 0;
-    }
+  .trend-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
   }
 }

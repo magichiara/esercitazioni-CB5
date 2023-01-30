@@ -1,7 +1,7 @@
 import "./modal.scss";
 import { MdOutlineClose } from "react-icons/md";
 
-export const Modal = ({ children, modalHandler }) => {
+export const Modal = ({ children, modalHandler, open }) => {
   return (
     <div className="Modal">
       <div className="content">

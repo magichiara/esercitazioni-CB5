@@ -9,10 +9,11 @@
 }
 
 .right-section {
+  width: 25%;
   display: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .wrapper {
     flex-direction: row;
     justify-content: center;
@@ -24,14 +25,12 @@
 
   .left-section {
     justify-content: center;
-    padding: 2rem;
+    padding: 0 1rem;
     width: 25%;
   }
 
   .right-section {
     display: flex;
-    justify-content: center;
-    padding: 2rem;
-    width: 25%;
+    padding: 0 1rem;
   }
 }

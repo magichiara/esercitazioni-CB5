@@ -1,0 +1,29 @@
+.Usersitem {
+  border: 2px solid black;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 220px;
+    background-color: black;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+
+    h4 {
+      text-transform: uppercase;
+    }
+
+    i {
+      display: flex;
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+  }
+}

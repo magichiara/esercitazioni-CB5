@@ -16,9 +16,11 @@ export const TrendList = () => {
       <div className="trend-title">
         <h2>Trends for you</h2>
       </div>
-      {trendList.map((trend) => (
-        <TrendItem key={trend.id} data={trend} />
-      ))}
+      <div className="trend-text">
+        {trendList.map((trend) => (
+          <TrendItem key={trend.id} data={trend} />
+        ))}
+      </div>
     </div>
   );
 };
