@@ -1,5 +1,4 @@
 import styles from "./styles.module.scss";
-import Header from "../../components/header/Header";
 import { useState, useEffect } from "react";
 import { GET } from "../../utils/https";
 import UsersItems from "./usersitem/UsersItems";
@@ -13,7 +12,6 @@ const Users = () => {
 
   return (
     <div className={styles.Users}>
-      <Header />
       <div className={styles.wrapper}>
         <h2>USERS</h2>
         <div className={styles.container}>

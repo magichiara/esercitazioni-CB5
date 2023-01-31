@@ -1,4 +1,3 @@
-import Header from "../../components/header/Header";
 import styles from "./styles.module.scss";
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -19,7 +18,6 @@ const User = () => {
 
   return (
     <div className={styles.User}>
-      <Header />
       <div className={styles.card}>
         <img src={userData?.image} alt={userData?.username} />
         <div className={styles.info}>

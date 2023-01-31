@@ -1,4 +1,4 @@
-.User {
+.Post {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,26 +7,31 @@
 
   .card {
     border: 2px solid black;
-    width: 250px;
+    width: 420px;
     box-sizing: content-box;
+    background-color: black;
 
-    img {
-      background-color: black;
-      width: 250px;
+    .title {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      color: white;
+      padding: 0.8rem;
     }
 
-    .info {
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.3rem;
+    .body {
+      background-color: white;
+      padding: 0.8rem;
 
-      .name {
-        text-transform: uppercase;
+      p {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        line-height: 1.3rem;
       }
     }
   }
-
   .btns {
     display: flex;
     gap: 3rem;

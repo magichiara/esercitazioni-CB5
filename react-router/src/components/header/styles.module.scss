@@ -6,9 +6,11 @@
   width: 100%;
   box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.5);
 
-  h3 {
+  h2 {
     letter-spacing: 0.2rem;
+    color: mediumvioletred;
   }
+
   .voices {
     display: flex;
     align-items: center;
