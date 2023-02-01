@@ -1,0 +1,36 @@
+.Navbar {
+  padding: 1.5rem 1rem;
+  border-bottom: 0.5px solid rgb(253, 253, 253);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-weight: 500;
+    transition: all 0.35s ease-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+
+    li {
+      text-decoration: none;
+      font-size: 1rem;
+      transition: all 0.35s ease-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
