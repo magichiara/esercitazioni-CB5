@@ -1,0 +1,13 @@
+.main {
+  padding: 3rem 1.5rem;
+  display: flex;
+  min-height: calc(100vh - 79px);
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: linear-gradient(
+    to top,
+    rgba(169, 208, 113, 0),
+    rgb(102, 51, 153)
+  );
+}

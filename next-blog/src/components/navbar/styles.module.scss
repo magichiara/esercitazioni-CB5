@@ -1,0 +1,17 @@
+.main {
+  padding: 2rem 1rem;
+  width: 100%;
+  background-color: rebeccapurple;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
